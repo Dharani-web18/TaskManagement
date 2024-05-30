@@ -1,0 +1,302 @@
+
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(250, 241, 225)
+}
+
+.App {
+  text-align: center;
+  color: #1a1111;
+}
+
+.App-header {
+  padding: 10px; 
+}
+
+form {
+  background: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 20px;
+  max-width: 360px;
+  margin: 20px auto;
+  border: 1px solid #cac4c4;
+  box-shadow: 0 0 10px rgba(5, 5, 5, 0.1);
+  min-height: 600px; 
+  
+}
+
+form div {
+  text-align: left;
+}
+.error {
+  color: rgb(44, 144, 184);
+  margin-bottom: 5px;
+  font-size: 12px;
+ 
+}
+
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+  border: 1px solid #d8d0d0;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.icon-container .left-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.icon-container button {
+  color: rgb(252, 106, 101);
+  background-color: white;
+  margin-right: 10px;
+}
+
+.icon-container .right-icon {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.note {
+  display: flex;
+  gap: 10px;
+  color: rgb(235, 22, 40);
+  margin-top: 25px;
+}
+.note1 {
+  height: 45px;
+  border-radius: 10px;
+  width: 223px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #756d66;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: red;
+  margin-top: 30px;
+}
+
+.label1 {
+  font-size: 16px;
+  color: #5f5d5d;
+  font-weight: 545; 
+  font-style: italic;
+  
+}
+.label2 {
+  font-size: 16px;
+  color: #5f5d5d;
+  font-weight: 545; 
+  font-style: italic;
+}
+.task {
+  font-size: 12px;
+  padding-left: 10px;
+}
+.input1 {
+  height: 45px;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(241, 41, 41);
+  border-radius: 50px;
+  width: 300px;
+  padding-left: 25px;
+  margin-top: 25px;
+}
+.date-input-container {
+  position: relative;
+  padding-left: 10px;
+}
+
+.input2 {
+  height: 40px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(85, 81, 81);
+  border-radius: 50px;
+  width: 300px;
+  padding-left: 40px;
+  margin-top: 8px;
+}
+
+.input1::placeholder {
+  color: rgb(195, 195, 204);
+}
+.input2::placeholder {
+  color: rgb(195, 195, 204);
+}
+
+button {
+  cursor: pointer;
+}
+
+.custom-select {
+  position: relative;
+  display: flex;
+  align-items: center; 
+}
+
+.custom-select select {
+  padding-left: 50px;
+  height: 45px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #049b75;
+  font-weight: bold;
+  font-size: 16px;
+  width: 195px;
+}
+
+.dropdown-profile-picture {
+  position: absolute;
+  left: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.candidate-profile {
+  margin-top: 10px;
+}
+
+.saved-data img,
+.comment img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.comment-box-container {
+  position: relative;
+  left: 45px;
+  top: 22px;
+}
+
+.comment-box {
+  border-radius: 50px;
+  height: 45px;
+  width: 265px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.send-icon {
+  position: relative;
+  top: 5px;
+  right: 35px;
+  cursor: pointer;
+  color: red;
+  background-color: white;
+}
+
+.comments-section {
+  font-size: 12px;
+  color: #776454;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.comment-actions button {
+  color: rgb(252, 106, 101);
+  margin-left: 10px;
+  background-color: white;
+}
+
+.comment-input {
+  display: flex;
+  align-items: center;
+}
+
+.comment-profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: absolute;
+  margin-top: 25px;
+}
+
+.comment-text-input {
+  flex: 1;
+  border-radius: 50px;
+  height: 45px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+}
+
+strong {
+  color: #049b75;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.comment p {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-style: normal;
+}
+
+.comment-actions {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.calendar-icon {
+  position: absolute;
+  left: 25px;
+  margin-top: 28px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #999; 
+}
+
+.datetime-picker{
+  font-size: 12px;
+}
