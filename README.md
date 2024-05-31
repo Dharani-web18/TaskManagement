@@ -12,6 +12,10 @@ This Task Management App is a web application built with React.js for managing t
 - **Edit and Delete**: Edit or delete tasks and comments as needed.
 - **Responsive Design**: The app is designed to be responsive and work seamlessly on desktop and mobile devices.
 
+## Live Demo
+
+Check out the live demo [here](https://6658280ac001c3ba35e43b0e--dynamic-pika-319fb7.netlify.app/).
+
 ## Installation
 
 1. Clone the repository: `git clone <repository-url>`
